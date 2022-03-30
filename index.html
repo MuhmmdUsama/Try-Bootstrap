@@ -61,13 +61,6 @@
           nihil debitis facilis suscipit molestias eveniet eaque commodi quod
           laudantium?
         </p>
-        <!-- <button
-          type="button"
-          style="width: 18rem"
-          class="btn btn-outline-success bg-white text-dark"
-        >
-          Success
-        </button> -->
         <a href="#" class="btn btn-primary">see More</a>
       </div>
 
@@ -76,7 +69,18 @@
       </div>
     </section>
 
+    <div class="bg-white d-flex justify-content-center align-item-center m-5">
+      <span class="badge">
+        <img src="./src/twitter.png" class="m-1">
+        <img src="./src/angellist.png" class="m-1">
+        <img src="./src/Linkedin_icon.png" class="m-1">
+        <img src="./src/github.png" class="m-1">
+        <img src="./src/medium.png" class="m-1">
+      </span>
+    </div>
+
     <section class="container d-flex justify-content-center align-item-center">
+
       <div class="card m-2" style="width: 18rem">
         <img
           src="./src/undraw_new_ideas_re_asn4.svg"
@@ -89,7 +93,7 @@
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Success</button>
         </div>
       </div>
 
@@ -105,7 +109,7 @@
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Success</button>
         </div>
       </div>
 
@@ -121,9 +125,29 @@
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Success</button>
         </div>
       </div>
+
+      <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./src/undraw_new_ideas_re_asn4.svg" class="card-img-top">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
 
     <!-- Java-Script-Section -->
